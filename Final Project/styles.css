@@ -104,7 +104,7 @@ nav a:hover{
     color: var(--lt-blue);
 }
 
-/*Main Content*/
+/*Home*/
 h2{
     font-size: 2rem;
     font-weight: bold;
@@ -128,7 +128,7 @@ h2{
 
 /*Home Page Content*/
 
-div{
+#content{
     color: var(--dk-blue);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -156,4 +156,54 @@ footer{
     font-size: 1rem;
     color: #FFF;
     padding: 2rem 0;
+}
+
+/*Contact Page*/
+
+#contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+}
+
+#message p{
+    margin: 0 25rem 2rem;
+}
+
+#message h2{
+    padding: 0 5rem;
+}
+
+form{
+    position: relative;
+    top: 6rem;
+    left: -23rem;
+    text-align: left;
+    background-color: var(--turquoise);
+    padding: 0 3rem;
+    margin-bottom: 6rem;
+}
+
+form p{
+    margin: 0 0 1rem 0;
+    color: #FFF;
+}
+p label{
+    display: block;
+    padding: .5rem;
+    margin: 0 2rem 1rem 0;
+}
+
+#preferred{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: #FFF solid 3px;
+    color: #FFF;
+    padding: .5rem;
+}
+
+#submit input{
+    background-color: var(--lt-green);
+    margin: 2rem;
 }
