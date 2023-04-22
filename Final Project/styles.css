@@ -29,7 +29,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
-    
 }
 ol, ul {
     list-style: none;
@@ -49,14 +48,15 @@ table {
 
 /*Start Here*/
 :root{
-    --dk-purple: #734864;
-    --lt-purple: #A65D78;
-    --dk-gry: #242614;
+    --dk-blue: #042940;
+    --turquoise:#005C53;
+    --lt-green: #e1eadb;
     --font: 'Lato','Raleway', sans-serif;
 }
 body{
     font-family: var(--font);
     text-align: center;
+    background-color: var(--lt-green);
 }
 header{
     text-align: center;
@@ -90,9 +90,17 @@ nav ul{
     gap: 6rem;
 }
 
+nav a{
+    text-decoration: none;
+}
+
 h2{
     font-size: 2rem;
     font-weight: bold;
+    padding: .5rem;
+    color: #FFF;
+    background-color: var(--turquoise);
+    margin-bottom: 2rem;
 
 }
 h3{
@@ -100,7 +108,11 @@ h3{
     font-weight: bold;
 
 }
-p{
-    text-align: left;
-    font-size: 1rem;
+#intro p{
+    font-size: 1.25rem;
+    margin: 0 20rem 0 20rem;
+}
+
+#intro{
+    padding-bottom: 3rem;
 }
